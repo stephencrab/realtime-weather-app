@@ -20,6 +20,7 @@ jobs:
         npm install
         npm run-script build
       env:
+        CI: false
         REACT_APP_AUTHORIZATION_KEY: ${{ secrets.REACT_APP_AUTHORIZATION_KEY }}
         REACT_APP_WeatherForecast_URL: ${{ secrets.REACT_APP_WeatherForecast_URL }}
         REACT_APP_CurrentWeather_URL: ${{ secrets.REACT_APP_CurrentWeather_URL }}
