@@ -34,8 +34,8 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-// const AUTHORIZATION_KEY = process.env.REACT_APP_AUTHORIZATION_KEY;
-const AUTHORIZATION_KEY = 'CWB-57EB398C-2198-4881-9ED4-994F905BE9EF';
+const AUTHORIZATION_KEY = process.env.REACT_APP_AUTHORIZATION_KEY;
+
 // const LOCATION_NAME = '臺北';
 // const LOCATION_NAME_FORECAST = '臺北市';
 
